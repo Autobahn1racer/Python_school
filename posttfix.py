@@ -1,11 +1,4 @@
-top=-1
-stack=[]
-postfix=[]
-def precedence(s):
-    if s is '(':
-        return 0
-    elif s is '+' or s is '-':
-        return 1
+     return 1
     elif s is '*' or s is'/':
         return 2
     elif s is '/':
@@ -30,7 +23,7 @@ for i in infix:
             top-=1
     elif i in 'abcdefghijklmnopqrstuvwxyz':
         postfix.append(i)
-
+        
 
     elif i in '+-/*^':
         p=precedence(i)
@@ -45,5 +38,5 @@ for i in infix:
 
 while len(stack)>0:
     postfix.append(stack.pop())
-
-print("It's postfix notation is: ",''.join(postfix))
+    
+print("It's postfix notation is: ",''.join(postfix))                                                       

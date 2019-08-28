@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.arange(1,20,1.25)
+y=np.log(x)
+z=np.cos(x)
+w=np.arange(1,20,1.25)
+plt.xticks(w)
+plt.xlabel('random values')
+plt.ylabel('log and cos values')
+plt.title("Log and cos plot")
+plt.plot(x,y,marker='d',label='log values')
+plt.plot(x,z,marker='o',linestyle='dashdot',label='cos values')
+plt.legend(loc='upper-left')
+plt.savefig('lineplot.pdf')
+plt.show()
