@@ -80,7 +80,7 @@ def main():
     s.end_poly()
     m1 = s.get_poly()
     s.begin_poly()
-    s.circle(6,180)
+    s.circle(7,200)
     s.end_poly()
     m2 = s.get_poly()
 
@@ -109,4 +109,3 @@ def main():
 if __name__ == '__main__':
     main()
     mainloop()
-
