@@ -1,0 +1,5 @@
+beginner/rookie/amateur/recruit
+regular/semi-pro
+professional/veteran
+world-class
+legendary
