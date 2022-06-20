@@ -1,0 +1,2 @@
+auto break case	char const continue default do double else enum	num float for goto if
+int long main register return short signed sizeof static struct switch typedef union unsigned void SUBTRACT while FROM id SELECT WHERE
